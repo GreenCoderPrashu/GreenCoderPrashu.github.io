@@ -48,6 +48,87 @@ section{
     height: 100%;
     margin: 0 2rem;
 }
+/* Ham nav */
+#Ham-nav{
+    display: none;
+}
+.Ham-Menu{
+    position: relative;
+    left: 20px;
+}
+.Ham-Icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px; 
+    cursor: pointer;
+}
+.Ham-Icon span{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3 ease-in-out;
+}
+
+.Menu-Links{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: #1f242d;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden; 
+    transition: all 0.3 ease-in-out;
+}
+.Menu-Links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: .5cm;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+.Menu-Links a:hover{
+    color: #7CF03D;
+    text-decoration: wavy;
+    text-decoration-color: #7CF03D;
+}
+
+.Menu-Links li{
+    list-style: none;
+}
+
+.Menu-Links.open{
+    max-height: 300px;
+}
+/*ham-menu for hand devices(style)*/
+.Ham-Icon.open span:first-child {
+ opacity: 0;
+ }
+
+.Ham-Icon.open span:nth-child(2) {
+ opacity: 1;
+ transform: rotate(45deg) translate(6px, -5px);
+ }
+ 
+.Ham-Icon.open span:last-child {
+ transform: rotate(-45deg) translate(10px, -5px);
+ }
+
+
+.Ham-Icon.open span:first-child{
+    transform: none;
+  }
+
+.Ham-Icon.open span:first-child{
+    opacity: 0;
+  }
+
+.Ham-Icon.open span:first-child{
+    transform: none;
+  }
 /* Home Section */
 #Home{
     display: flex;

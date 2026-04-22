@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) {
+    #Desktop-Nav {
+        display: none;
+     }
+     #Ham-nav{
+        display: flex;
+     }
+}
+@media screen and (max-width: 450px){
+    .Home-Profile-Pic{
+    height: 250px;
+    width: 200px;
+}
+}
