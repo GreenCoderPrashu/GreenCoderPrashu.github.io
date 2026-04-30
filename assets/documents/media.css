@@ -6,9 +6,15 @@
         display: flex;
      }
 }
-@media screen and (max-width: 450px){
-    .Home-Profile-Pic{
-    height: 250px;
-    width: 200px;
+@media screen and (max-width: 800px){
+.Home-Profile-Pic{
+        height: 200px;
+        width: 200px;
+}
+
+.Home-Sec-Container-Info{
+    display: block;
+    justify-self: center;
+    justify-items: center;
 }
 }
