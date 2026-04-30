@@ -8,13 +8,87 @@
 }
 @media screen and (max-width: 800px){
 .Home-Profile-Pic{
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
 }
-
+.Logo-Png{
+    height: 60px;
+    width: 60px;
+}
+.Text-Container{
+    top: 40px;
+}
+.Text-Box-p1{
+    margin-top: 10px;
+}
+.Text-Box-Tittle{
+    font-size: 1.5rem;
+}
 .Home-Sec-Container-Info{
     display: block;
     justify-self: center;
     justify-items: center;
+}
+#About{
+    display:block;
+    margin-top: 8vh;
+    gap: 3rem;
+}
+.About-Container{
+    display: block;
+    justify-items: center;
+}
+.About-Details-Contatiner{
+    margin-top: 10px;
+    width: 400px;
+}
+.Details{
+    display: block;
+    padding: 10px;
+    width: 350px;
+    font-size: 13px;
+}
+.About-Pic-Container{
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+.About-Profile-Pic{
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+}
+.About-Details-Containers{
+    display: flex;
+    gap: 5px;
+}
+.Education p{
+    font-size: 10px;
+}
+.Experience p{
+    font-size: 10px;
+}
+.Education h1{
+    font-size: 15px;
+}
+.Experience h1{
+    font-size: 15px;
+}
+.Education{
+    height: 150px;
+}
+.Experience{
+    height: 150px;
+}
+.Skills-Btn{
+    padding: 5px 10px;
+    left: 40px;
+    font-size: 13px;
+}
+.Projects-Btn{
+    padding: 5px 10px;
+    left: 40px;
+    font-size: 13px;
 }
 }
