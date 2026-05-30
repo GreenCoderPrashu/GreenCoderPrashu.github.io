@@ -11,6 +11,9 @@
         height: 150px;
         width: 150px;
 }
+body{
+    margin-left: 60px;
+}
 .Logo-Png{
     height: 60px;
     width: 60px;
@@ -40,7 +43,8 @@
 }
 .About-Details-Contatiner{
     margin-top: 10px;
-    width: 400px;
+    width: 320px;
+    padding: 20px;
 }
 .Details{
     display: block;
@@ -76,19 +80,19 @@
     font-size: 15px;
 }
 .Education{
-    height: 150px;
+    height: 160px;
 }
 .Experience{
-    height: 150px;
+    height: 160px;
 }
 .Skills-Btn{
     padding: 5px 10px;
-    left: 40px;
+    left: 20px;
     font-size: 13px;
 }
 .Projects-Btn{
     padding: 5px 10px;
-    left: 40px;
+    left: 20px;
     font-size: 13px;
 }
 }
