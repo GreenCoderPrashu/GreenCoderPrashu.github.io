@@ -6,7 +6,10 @@
         display: flex;
      }
 }
-@media screen and (max-width: 800px){
+
+/* For Mobile Phone */
+
+@media screen and (max-width: 450px){
 .Home-Profile-Pic{
         height: 150px;
         width: 150px;
@@ -93,6 +96,98 @@ body{
 .Projects-Btn{
     padding: 5px 10px;
     left: 20px;
+    font-size: 13px;
+}
+}
+
+/* For Tablet*/
+
+@media (min-width: 450px) and (max-width:1200px){
+.Home-Profile-Pic{
+        height: 250px;
+        width: 250px;
+}
+body{
+    margin-left: 60px;
+}
+.Logo-Png{
+    height: 80px;
+    width: 80px;
+}
+.Text-Container{
+    top: 40px;
+}
+.Text-Box-p1{
+    margin-top: 10px;
+}
+.Text-Box-Tittle{
+    font-size: 1.5rem;
+}
+.Home-Sec-Container-Info{
+    justify-self: center;
+    justify-items: center;
+}
+#About{
+    display:block;
+    margin-top: 8vh;
+    gap: 3rem;
+}
+.About-Container{
+    justify-items: center;
+    gap: 20px;
+}
+.About-Details-Contatiner{
+    margin-top: 10px;
+    width: 400px;
+    padding: 20px;
+}
+.Details{
+    display: block;
+    padding: 10px;
+    width: 350px;
+    font-size: 13px;
+}
+.About-Pic-Container{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+.About-Profile-Pic{
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+}
+.About-Details-Containers{
+    display: flex;
+    gap: 5px;
+}
+.Education p{
+    font-size: 10px;
+}
+.Experience p{
+    font-size: 10px;
+}
+.Education h1{
+    font-size: 15px;
+}
+.Experience h1{
+    font-size: 15px;
+}
+.Education{
+    height: 160px;
+}
+.Experience{
+    height: 160px;
+}
+.Skills-Btn{
+    padding: 5px 10px;
+    left: 25%;
+    font-size: 13px;
+}
+.Projects-Btn{
+    padding: 5px 10px;
+    left: 20%;
     font-size: 13px;
 }
 }
