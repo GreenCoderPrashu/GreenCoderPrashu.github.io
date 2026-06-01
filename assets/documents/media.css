@@ -35,6 +35,7 @@ body{
     justify-self: center;
     justify-items: center;
 }
+/* About page */
 #About{
     display:block;
     margin-top: 8vh;
@@ -47,6 +48,7 @@ body{
 .About-Details-Contatiner{
     margin-top: 10px;
     width: 320px;
+    height: 400px;
     padding: 20px;
 }
 .Details{
@@ -97,6 +99,26 @@ body{
     padding: 5px 10px;
     left: 20px;
     font-size: 13px;
+}
+/* Project */
+.Projects-Contatiner{
+    display: block;
+}
+#Project-Card{
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+}
+.Pro-Img{
+    height: 400px;
+    width: 300px;
+}
+.Projects-H1{
+    font-size: 15px;
+}
+#Show-More{
+    margin: 40px;
+    left: 15vw;
 }
 }
 
