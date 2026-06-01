@@ -346,7 +346,6 @@ section{
 #Projects{
     display:block;
     gap: 3rem;
-    height: 80vh
 }
 .Projects-P{
     font-weight: 400;
@@ -371,7 +370,8 @@ section{
     width: 300px;
     border-radius: 30px;
     margin-top: 50px;
-}.Pro-Img:hover{
+}
+.Pro-Img:hover{
     box-shadow: 0 0 10px #00ffee;
     box-shadow: 0 0 20px #00ffee;
 }
@@ -390,10 +390,10 @@ section{
     border-radius: 20px;
     padding: 10px 20px;
     box-shadow: 0 0 10px #7CF03D;
-    margin-top: 30px;
+    margin: 30px;
     cursor: pointer;
     position: relative;
-    left: 45vw;
+    left: 40vw;
     transition: .5s;
 }
 #Show-More:hover{
