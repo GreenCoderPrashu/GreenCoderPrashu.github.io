@@ -149,13 +149,13 @@
             <h1 class="Contact-H1">Contact Me</h1>
             <p class="Contact-P">For More Information</p>
             <div class="Contact-Form-Contatiner">
-                <form action="" class="Contact-Form">
-                    <input type="text" placeholder="Name" class="Input-Field">
-                    <input type="email" placeholder="E-Mail" class="Input-Field">
-                    <textarea name="" id="" placeholder="Message" cols="0" rows="6" class="Input-Field"></textarea>
-                    <input type="button" value="Submit" class="Contact-Button">
+                <form id="contactForm" class="Contact-Form">
+                    <input type="text" name="name" placeholder="Name" class="Input-Field" required>
+                    <input type="email" name="email" placeholder="E-Mail" class="Input-Field" required>
+                    <textarea name="message" placeholder="Message" cols="0" rows="6" class="Input-Field" required></textarea>
+                    <button type="submit" class="Contact-Button">Submit</button>
+                    <p id="form-status" style="margin-top: 15px; text-align: center; color: #7CF03D;"></p>
                 </form>
-
             </div>
         </Section>
     </main>
